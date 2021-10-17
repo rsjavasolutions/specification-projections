@@ -1,0 +1,28 @@
+@EnableSwagger2
+
+http://localhost:8080/swagger-ui.html
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections
+
+ <T> Collection<T> findAllProjectedBy(Class<T> type);
+
+{
+  "brand": "ford",
+  "model": "mustang",
+  "price": 75000,
+  "year": 2016
+}
+
+{
+  "brand": "ford",
+  "model": "mondeo",
+  "price": 50000,
+  "year": 2016
+}
+
+{
+  "brand": "dodge",
+  "model": "challenger",
+  "price": 100000,
+  "year": 2019
+}
